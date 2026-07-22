@@ -1,0 +1,6 @@
+theme: minima
+title: High-Flux Count-Free Single-Photon 3D Cameras
+description: A hardware-algorithm co-design to jointly address the two major bottlenecks of single-photon 3D cameras: (i) extreme data rates, (ii) dead-time-distorted measurements in high-flux scenarios.
+
+header_pages:
+  about.md
