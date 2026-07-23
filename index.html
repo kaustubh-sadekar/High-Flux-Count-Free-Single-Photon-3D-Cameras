@@ -15,6 +15,8 @@
   <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
@@ -170,7 +172,7 @@
     "@type": "Organization",
     "name": "INSTITUTION_OR_LAB_NAME",
     "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.png",
+    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
     "sameAs": [
       "https://twitter.com/YOUR_TWITTER_HANDLE",
       "https://github.com/YOUR_GITHUB_USERNAME"
@@ -187,7 +189,7 @@
   </button>
 
   <!-- More Works Dropdown -->
-  <div class="more-works-container">
+  <!-- <div class="more-works-container">
     <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
       <i class="fas fa-flask"></i>
       More Works
@@ -200,21 +202,21 @@
           <i class="fas fa-times"></i>
         </button>
       </div>
-      <div class="works-list">
+      <div class="works-list"> -->
         <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
+        <!-- <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
+          <div class="work-info"> -->
             <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
+            <!-- <h5>Paper Title 1</h5> -->
             <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
+            <!-- <p>Brief description of the work and its main contribution.</p> -->
             <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
+            <!-- <span class="work-venue">Conference/Journal 2024</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
-        </a>
+        </a> -->
         <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
+        <!-- <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
           <div class="work-info">
             <h5>Paper Title 2</h5>
             <p>Brief description of the work and its main contribution.</p>
@@ -232,7 +234,7 @@
         </a>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <main id="main-content">
   <section class="hero">
@@ -245,19 +247,19 @@
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Kaustubh Sadekar</a>,</span>
+                <a href="https://kaustubh-sadekar.github.io/" target="_blank">Kaustubh Sadekar</a><sup>1</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Vivek K Goyal</a>,</span>
+                  <a href="https://www.vivekgoyal.org/" target="_blank">Vivek K Goyal</a><sup>2</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">David Maier</a>,</span>
+                    <a href="https://web.cecs.pdx.edu/~maier/" target="_blank">David Maier</a><sup>1</sup>,</span>
                     <span class="author-block">
-                      <a href="FOURTH AUTHOR PERSONAL LINK" target="_blank">Atul Ingle</a>
+                      <a href="https://web.cecs.pdx.edu/~ingle2/" target="_blank">Atul Ingle</a><sup>1</sup>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
                     <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
+                    <span class="author-block"><sup>1</sup>Portland State University,<sup>2</sup>Boston University<br>TPAMI 2026, <i class="fa-solid fa-medal" style="color: #ecb94a;"></i> ICCP 2026 Best Paper Award </span>
                     <!-- TODO: Remove this line if no equal contribution
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
                   </div>
@@ -317,21 +319,21 @@
 
 
 <!-- Teaser video-->
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
-    <div class="hero-body">
+    <div class="hero-body"> -->
       <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+      <!-- <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata"> -->
         <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
+        <!-- <source src="static/videos/banner_video.mp4" type="video/mp4">
+      </video> -->
       <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
+      <!-- <h2 class="subtitle has-text-centered">
         Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
       </h2>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
@@ -365,33 +367,96 @@ Our work will enable high-resolution SPAD cameras that are severely bandwidth-co
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
+        <img src="static/images/FullScene_iTof2dToF_Results_16bin_with_transients.png" alt="First research result visualization" loading="lazy"/>
         <!-- TODO: Replace with description of this result -->
         <h2 class="subtitle has-text-centered">
-          First image description.
+          <b>Results on 3D scenes with multi-path interference from iToF2dToF dataset.</b> We compare our EDH-based AbS method with standard
+baselines that use Equi Width Histograms (EWH) and a histogramless approach. Considering resource-constrained scenarios, we keep the number
+of EWH bins and EDH bins equal for comparison. Quantitative results: mean error (ME, in meters), standard deviation (SD, in meters), and 1%
+inlier rate (1%in)—are reported beneath each result. As shown, our proposed method significantly reduces distance artifacts and outperforms the
+baselines. Additionally, we show recovered transients for some selected pixels from each scene, demonstrating how, despite the presence of multi-
+path interference, our method is able to converge closer to the largest peak in most scenarios.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
+        <img src="static/images/Deadtime_Motivation.png" alt="Second research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          <b>Effect of dead-time distortion on EDH SPCs.</b> In the absence
+of dead-time distortions, a compressive capture from a 32-bin EDH
+provides reliable estimates of the true scene distances. For a realistic
+dead-time of τd = 75 ns, the scene distance estimates are severely
+corrupted by pile-up. Due to the non-linearity of pile-up distortions,
+statistical averaging by increasing the capture time does not help.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
+        <img src="static/images/Deadtime_Distorted_EDH.png" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+          <b> Effect of dead-time on SPC measurements.</b> (a) In case of no
+          dead-time, the binner tracks the median of the photon arrivals, but in
+          case of dead-time, the binner tracks just the detections and suffers from
+          a negative bias due to dead-time distortion. (b) When dead-time = 0,
+          the narrowest bin tracks the peak, but in the presence of dead-time, the
+          narrowest bin no longer tracks the peak of the photon arrivals.
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
+      <img src="static/images/Forward_Model.png" alt="Fourth research result visualization" loading="lazy"/>
       <h2 class="subtitle has-text-centered">
-        Fourth image description.
+        <b>Markov chain model for an equi-depth histogrammer.</b> (a) The photon detection stream lives on a discrete state space with B possible
+locations; the binner control value lives on a state space of B + 1 possible locations. The discrete photon detection times can be described using a
+Markov chain [11]. (b) A binner’s control value is incremented or decremented with some probability that is tied to the photon detection probabilities
+relative to the current control-value position. The binner’s control value, therefore, follows another Markov chain, which is driven by the Markov chain
+of photon detections. (c) An EDH consists of a bank of binners, each tracking a different quantile (shown by vertical dashed lines) of the perceived
+transient distribution, which may be different from the true transient distribution due to dead-time distortion. The binners converge to their respective
+stationary distributions that are centered around the actual quantiles.
       </h2>
     </div>
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/AbS_Pipeline.png" alt="Third research result visualization" loading="lazy"/>
+      <h2 class="subtitle has-text-centered">
+        <b> Three stages of the analysis-by-synthesis (AbS) pipeline.</b> (1)
+          Initialization stage uses SPC measurement Mq and background flux
+          Φbkg estimated from passive capture. We also apply a spatial 3 × 3
+          median filter to reduce noise in the initial distance estimate. (2) The
+          optimization stage minimizes a loss function to obtain model parameters
+          that best explain the observed EDH data. (3) A postprocessing stage
+          applies a 3x3 median filter on the distance estimate and effective signal
+          estimate to get the final outputs.
+     </h2>
+   </div>
+   <div class="item">
+    <!-- Your image here -->
+    <img src="static/images/FIG_HardwareResults.png" alt="Third research result visualization" loading="lazy"/>
+    <h2 class="subtitle has-text-centered">
+      <b> AbS robustness to non-ideal transients in real hardware data.</b> Our AbS pipeline can handle non-ideal transients such as single-pixel
+        transients from real hardware data. Observe that given the emulated EDH boundaries (vertical lines), there is good agreement between the actual
+        perceived transient and the estimate in both (a) high flux (HF) conditions and (b) low flux (LF). In high-flux conditions, our method reliably predicts
+        the within-peak pile-up and also the “peak shadow” (the dip in the transient’s shape) that immediately follows the peak location, and spans a variable
+        number of time locations depending on the dead-time.
+   </h2>
+ </div>
+ <div class="item">
+  <!-- Your image here -->
+  <img src="static/images/robustness_to_calibration_errors.png" alt="Third research result visualization" loading="lazy"/>
+  <h2 class="subtitle has-text-centered">
+    <b> Robustness of our AbS pipeline to calibration errors and
+      model mismatch.</b> The AbS pipeline estimates the scene distance and
+      signal flux by assuming known calibrated values of Φbkg , laser pulse
+      FWHM, and τd. These simulations demonstrate a gradual increase in
+      distance RMSE (top row) and a slight decrease in 1% inliers (bottom
+      row) with increasing calibration errors in the background estimate (left
+      column), pulse FWHM (middle column), and τd (right column). The
+      scene distance was fixed at the half the maximum distance range.f The
+      smooth trends across five different illumination conditions demonstrate
+      that our AbS estimator continues to work even in the presence of slight
+      calibration mismatches.
+ </h2>
+</div>
   </div>
 </div>
 </div>
@@ -423,36 +488,36 @@ Our work will enable high-resolution SPAD cameras that are severely bandwidth-co
 
 
 <!-- Video carousel -->
-<section class="hero is-small">
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Another Carousel</h2>
       <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
+        <div class="item item-video1"> -->
           <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
+          <!-- <video poster="" id="video1" controls muted loop height="100%" preload="metadata"> -->
             <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
+            <!-- <source src="static/videos/carousel1.mp4" type="video/mp4">
           </video>
         </div>
-        <div class="item item-video2">
+        <div class="item item-video2"> -->
           <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
+          <!-- <video poster="" id="video2" controls muted loop height="100%" preload="metadata"> -->
             <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
+            <!-- <source src="static/videos/carousel2.mp4" type="video/mp4">
           </video>
         </div>
-        <div class="item item-video3">
+        <div class="item item-video3"> -->
           <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
+          <!-- <video poster="" id="video3" controls muted loop height="100%" preload="metadata"> -->
             <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
+            <!-- <source src="static/videos/carousel3.mp4" type="video/mp4">
           </video>
         </div>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End video carousel -->
 
 
@@ -478,7 +543,7 @@ Our work will enable high-resolution SPAD cameras that are severely bandwidth-co
 
 
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
+  <!-- <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <div class="bibtex-header">
         <h2 class="title">BibTeX</h2>
@@ -495,7 +560,7 @@ Our work will enable high-resolution SPAD cameras that are severely bandwidth-co
   url={https://your-domain.com/your-project-page}
 }</code></pre>
     </div>
-</section>
+</section> -->
 <!--End BibTex citation -->
 
 
